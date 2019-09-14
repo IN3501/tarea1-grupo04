@@ -1,0 +1,18 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+Inicio
+{% endblock title %}
+
+{% block content %}
+Bienvenido al registro del evento DIICC que IQBT es maquina
+<br>
+Inscribete para asistir ;)
+<br>
+
+<br>
+ <a href="{% url 'pagina2' %}" target="_blank"> Registro al evento</a>
+ <br>
+ <a href="{% url 'mostrar_resultado' %}" target="_blank">Datos ingresados</a>
+	<br>
+{% endblock content %}
